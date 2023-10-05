@@ -3,8 +3,6 @@ pragma solidity >= 0.7.0 < 0.9.0;
 
 contract view_pure {
     uint public num;
-    uint public num1;
-    uint public num2;
 
     // To Write the State Vaniables => (NOTHING)
     function setter_1(uint _num) public {
@@ -24,10 +22,8 @@ contract view_pure {
     }
 
     // To Change the state variable, compute and return => (NOTHING)
-    function setter_3(uint _num1, uint _num2) public returns (uint) {
-        num1 = _num1;
-        num2 = _num2;
-        return num1 + num2;
+    function setter_3(uint _num1, uint _num2) public {
+        num = _num1 + _num2;
     }
 
     // To get the values as local variables, compute and return => (PURE)
