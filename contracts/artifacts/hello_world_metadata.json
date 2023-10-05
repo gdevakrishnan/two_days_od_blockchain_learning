@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/5_hello_world.sol": "practice"
+			"contracts/5_hello_world.sol": "hello_world"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/5_hello_world.sol": {
-			"keccak256": "0xf0bf338fcc2d55901594c0671c66b2fb4bd25321554fc448be0889fe14d5fe25",
+			"keccak256": "0xbee590039901f5beccd72139abeec2a2a8259ee3f4f0b33514deeb2474b7b8e1",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://178168eb9f129ee450bca4f3e4f4b11bc7ff9b0bc0c810df813b776db85c9d40",
-				"dweb:/ipfs/QmUdbngMEyfbT5GW5ncLPKZPubA9AtmADtzzhna1gNUymL"
+				"bzz-raw://3731598996035666be2a8a838c321ce7a7743acda29965dafdf29cbd8570c77d",
+				"dweb:/ipfs/QmbEWTYSomBZQX55AZPJYJJeC4NbGMQLiXncuivejjuneN"
 			]
 		}
 	},
