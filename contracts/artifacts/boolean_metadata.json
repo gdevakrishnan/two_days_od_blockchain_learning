@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "defaultBool",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/12_boolean.sol": "boolean"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/12_boolean.sol": {
+			"keccak256": "0xc75b7958332f5b7e7b5468d6227968c6cb8515959bcf3f992ba3413590660798",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f5bd9ede85c65c4fa03ef9f420dcdb48254a4680fa018b45c6387564c799cf1e",
+				"dweb:/ipfs/QmZUmkG7HYR9Pphypoy3DD9cqn3QyFa7EAcxTLHrmzUD4t"
+			]
+		}
+	},
+	"version": 1
+}
