@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >= 0.7.0 < 0.9.0;
 
-// PROJECT-1
+// PROJECT-1 DAY - 2
 // CALCULATOR CONTRACT
 contract calculator {
     uint operand1;
