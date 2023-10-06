@@ -32,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/14_address.sol": "address_datatype"
+			"contracts/15_address.sol": "address_datatype"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -46,7 +46,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/14_address.sol": {
+		"contracts/15_address.sol": {
 			"keccak256": "0x8c7805779fce7eb80d451bb6454335077117c51b6e3932b93fd197596f644600",
 			"license": "GPL-3.0",
 			"urls": [
