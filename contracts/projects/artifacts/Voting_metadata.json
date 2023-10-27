@@ -6,33 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "age",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "party1",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "party2",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -41,6 +14,27 @@
 					}
 				],
 				"name": "setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "validate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "vote_party1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "vote_party2",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -72,7 +66,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/projects/2_voting.sol": "voting"
+			"contracts/projects/3_voting.sol": "Voting"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -86,12 +80,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/projects/2_voting.sol": {
-			"keccak256": "0x2f2fd89fa9bfbc27ebbbf39922b2f1b9d994812a53a481ce9f0ad55ff3d7a752",
-			"license": "GPL-3.0",
+		"contracts/projects/3_voting.sol": {
+			"keccak256": "0xb2eeb7acda89434ce10a471ba0e797eee29cfaf149123f82375854345db15ada",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://5d9b939a18bfdd7930627204db921031c544ef8bac81136c0220d3e2448fbcab",
-				"dweb:/ipfs/QmeJ6E5V5dm7kBZM6dAPbSfbK6XJ4H8n5viuRtXcTnx8Yq"
+				"bzz-raw://ca1c0ecbd0d0e21c1eff6a9574179193b384464d0e45a282c7e6a33374da235f",
+				"dweb:/ipfs/QmQVEng9p9DMpsaG8YpZ777vUcGbtnLBPEv9G4WycT6dqV"
 			]
 		}
 	},

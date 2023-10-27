@@ -64,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/4_practice.sol": "practice"
+			"contracts/projects/4_todo.sol": "todo"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -78,12 +78,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/4_practice.sol": {
-			"keccak256": "0x8ed9a7e94f8aa24da43bfe577233d1e9d7f2de9d125287ac713c7e7f238b8242",
+		"contracts/projects/4_todo.sol": {
+			"keccak256": "0x3825a084bc9e77ea69240e7402e5ec2b0d705df41c3fd62283d8601103f02fda",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://27081b7f095d55eed39e2f3a1e0d112573a8504a26c075de7a3f487fe0abe09d",
-				"dweb:/ipfs/Qmcx2x44erzEPSCZagVQ1gpZB5nwgFg2qVwXvL8TqMfzqa"
+				"bzz-raw://bfbcd892431213a6bffed670ff4ed885c793609f3957d6c7b68d9d71f5d83218",
+				"dweb:/ipfs/QmTmswRWmvNtbmGcEwUjRomvqQccpLv1zqQasCfwFsSs2k"
 			]
 		}
 	},

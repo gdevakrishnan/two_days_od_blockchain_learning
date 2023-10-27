@@ -64,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/4_practice.sol": "practice"
+			"contracts/projects/4_todo.sol": "practice"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -78,7 +78,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/4_practice.sol": {
+		"contracts/projects/4_todo.sol": {
 			"keccak256": "0x8ed9a7e94f8aa24da43bfe577233d1e9d7f2de9d125287ac713c7e7f238b8242",
 			"license": "GPL-3.0",
 			"urls": [

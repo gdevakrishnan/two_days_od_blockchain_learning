@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.21+commit.d9974bed"
+		"version": "0.8.22+commit.4fc1097e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -8,43 +8,45 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_newTodo",
-						"type": "string"
-					}
-				],
-				"name": "addTodo",
-				"outputs": [
-					{
-						"internalType": "string[]",
-						"name": "",
-						"type": "string[]"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
 						"internalType": "uint256",
-						"name": "_index",
+						"name": "_age",
 						"type": "uint256"
 					}
 				],
-				"name": "delTodo",
+				"name": "setter",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getTodo",
+				"name": "validate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "vote_party1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "vote_party2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "winner",
 				"outputs": [
 					{
-						"internalType": "string[]",
+						"internalType": "string",
 						"name": "",
-						"type": "string[]"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -64,7 +66,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/4_practice.sol": "practice"
+			"contracts/4_practice.sol": "Practice"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -79,11 +81,11 @@
 	},
 	"sources": {
 		"contracts/4_practice.sol": {
-			"keccak256": "0x8ed9a7e94f8aa24da43bfe577233d1e9d7f2de9d125287ac713c7e7f238b8242",
-			"license": "GPL-3.0",
+			"keccak256": "0xa80bbf1d693be1402faa671c7c600e4208f0a2b0199fed772ffd271cc9ad3cba",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://27081b7f095d55eed39e2f3a1e0d112573a8504a26c075de7a3f487fe0abe09d",
-				"dweb:/ipfs/Qmcx2x44erzEPSCZagVQ1gpZB5nwgFg2qVwXvL8TqMfzqa"
+				"bzz-raw://0fb7f031a5fc3807d7ffa430fd4b4216b459c4e5f53c323602749a2465e60e6c",
+				"dweb:/ipfs/QmSRZPGMCEYD3BzHLVjgaZNNKL3RRpnLGp9zx2WwKmjHEx"
 			]
 		}
 	},

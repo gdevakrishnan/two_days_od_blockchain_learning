@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.21;
 
-contract Practice {
+contract Voting {
     uint age;
     uint party1;
     uint party2;
