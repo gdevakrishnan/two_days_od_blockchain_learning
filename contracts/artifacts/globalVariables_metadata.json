@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "callerAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnBlockTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/22_global_variables.sol": "globalVariables"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/22_global_variables.sol": {
+			"keccak256": "0xc8e10b3f50337a63cad7bde9dddae08b9ed6336b76344f7d00ae5d732c082979",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c0f92be39458679cbbf361be6e7f4f4af86a3ede1d93b93ac325c8f01c0597ea",
+				"dweb:/ipfs/QmUgXaa4s7ZUy8JfkgCCepK2U7iSdumQcXcmsYt2ukHfqq"
+			]
+		}
+	},
+	"version": 1
+}
