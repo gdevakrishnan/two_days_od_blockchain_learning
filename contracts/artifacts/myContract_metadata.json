@@ -1,21 +1,41 @@
 {
 	"compiler": {
-		"version": "0.8.21+commit.d9974bed"
+		"version": "0.8.22+commit.4fc1097e"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "myFunction",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fmemory",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fstorage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -32,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/4_practice.sol": "myContract"
+			"contracts/18_data_locations.sol": "myContract"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -46,12 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/4_practice.sol": {
-			"keccak256": "0x9383dde0f4dd3dbe76f60aaf690fae00af0b52ab3a54501567723fce57fa7943",
+		"contracts/18_data_locations.sol": {
+			"keccak256": "0xc02bdeff6170a062de10d7d37b0d27f61ca62d9924edf74b681029ed003c69af",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f5f087d23d1ffe1f8bc9fd79be80a5ce190a6a081fe5c5b1bedbcb63834f4682",
-				"dweb:/ipfs/QmQ4HbbBqovVA2MC7ZD58ERjZDhzBczKNitnbrzxbhmLsX"
+				"bzz-raw://5381502f04895c2c3b80b697f5107015e55364c987dcd7c82e7161d63f93b846",
+				"dweb:/ipfs/QmRMdAvvqbMX5bcxvhxMcEXv1oui6euDJ2ZfzRJ7XhSR1K"
 			]
 		}
 	},

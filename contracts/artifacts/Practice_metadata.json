@@ -4,55 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_age",
-						"type": "uint256"
-					}
-				],
-				"name": "setter",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "validate",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "vote_party1",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "vote_party2",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "winner",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -81,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/4_practice.sol": {
-			"keccak256": "0xa80bbf1d693be1402faa671c7c600e4208f0a2b0199fed772ffd271cc9ad3cba",
+			"keccak256": "0x4389b092557abf85ef8aea77d12324f0e3cf3139e1e08f564f8732274336ca2b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0fb7f031a5fc3807d7ffa430fd4b4216b459c4e5f53c323602749a2465e60e6c",
-				"dweb:/ipfs/QmSRZPGMCEYD3BzHLVjgaZNNKL3RRpnLGp9zx2WwKmjHEx"
+				"bzz-raw://aa77bb398f044c1ef2d4eadd6b88d2ee07bd117a83f4e89c844bfc96151fe209",
+				"dweb:/ipfs/QmQZhNBvpC4xjCydoM4BCaL8dyov2Qk8EN3aoSLALEKwJs"
 			]
 		}
 	},

@@ -1,0 +1,122 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getter",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "Name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "mobileNo",
+								"type": "uint256"
+							},
+							{
+								"internalType": "bool",
+								"name": "result",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct Structures.Student",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "s1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "mobileNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "result",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_Name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_mobileNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_result",
+						"type": "bool"
+					}
+				],
+				"name": "setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/19_structures.sol": "Structures"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/19_structures.sol": {
+			"keccak256": "0x718d7b0e41427feb7a210a1319ba79ebec91f5a6faed58c98a01e025366c5022",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5e1a8838d63976712df900d07c367c1a65fb5da2c58ec55b448b9c16a22487d2",
+				"dweb:/ipfs/QmSYUVSeuPFE87G4fv32QwoW1YqofDS5Esz1wjuQS8RfEr"
+			]
+		}
+	},
+	"version": 1
+}
