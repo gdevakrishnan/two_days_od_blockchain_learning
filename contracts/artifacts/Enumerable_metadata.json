@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/21_enumerable.sol": "Enumerable"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/21_enumerable.sol": {
+			"keccak256": "0x47ed42d4e6d3766c0fc005ca1970d3ea5b42f14a4d0e298ea8196fb44e504c46",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7d56807aae56ffe2b3b0107fba444f57d2cd84be79c8147a8202d39cf811b072",
+				"dweb:/ipfs/QmW29kdhHd3bGT9LRZWGdn5dEqSYiXf9VE4TFqhq6uJcGD"
+			]
+		}
+	},
+	"version": 1
+}
