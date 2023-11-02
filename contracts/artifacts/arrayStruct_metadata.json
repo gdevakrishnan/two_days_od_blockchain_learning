@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "s",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "moibleNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "result",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_Name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_mobileNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_result",
+						"type": "bool"
+					}
+				],
+				"name": "setter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/20_array_struct.sol": "arrayStruct"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/20_array_struct.sol": {
+			"keccak256": "0x608716ba8f8f78e59ab818b932259e9a1e0d7850817d8b7634dfe653fb03a75b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://76583fa16a8748223e3b2bd62ab19251e95a4156953e8075d6a344b500a37f35",
+				"dweb:/ipfs/QmQorwaQ5L3mcv9uNUkGoiQ3tUwvPYkQMRQywxZcebw1hN"
+			]
+		}
+	},
+	"version": 1
+}
