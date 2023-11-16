@@ -6,10 +6,10 @@ contract globalVariables {
     // block.timestamp
 
     function callerAddress() public view returns(address) {
-        return msg.sender;
+        return msg.sender;  // Returns the senders address (who call this function)
     }
 
     function returnBlockTime() public view returns (uint) {
-        return block.timestamp;
+        return block.timestamp; //Returns the timestamps (since jan 1, 1970)
     }
 }

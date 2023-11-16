@@ -7,20 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "callerAddress",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "returnBlockTime",
+				"name": "contractBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -29,6 +16,26 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendEtherToContract",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "reciever",
+						"type": "address"
+					}
+				],
+				"name": "setEther",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -45,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/22_global_variables.sol": "globalVariables"
+			"contracts/23_transfer_ether.sol": "transferEther"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -59,12 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/22_global_variables.sol": {
-			"keccak256": "0x8ac019238a4ab2e9c0971e659cf1b9a04256a489f60176b95ec598c4bc6db88b",
+		"contracts/23_transfer_ether.sol": {
+			"keccak256": "0xd1f6dacb6ca7f5f7a2d5a070b1a27a9322ce46c707276b33457905acf0d1e153",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f8b72604e3d38cbfeef363f1ac78576822d11ccacd15322160671780e327dc81",
-				"dweb:/ipfs/QmabUSpH85UiPNidp68KgdTgS7rr9fM54a9LyAUx5ts173"
+				"bzz-raw://bc465f1cabb038af48310e15ab3e772f93918ba59d09c9e722a918cd406d8204",
+				"dweb:/ipfs/QmcRkiMhayjjhXRFEYfVkgVqVLVCUVeRU4dzHV875bMez6"
 			]
 		}
 	},

@@ -1,12 +1,12 @@
 {
-	"id": "fbfd87f9d6ef93c072dcaf8a1b791608",
+	"id": "dc1bc68012f0bd58b138ae3fca4c2c88",
 	"_format": "hh-sol-build-info-1",
 	"solcVersion": "0.8.22",
 	"solcLongVersion": "0.8.22+commit.4fc1097e",
 	"input": {
 		"language": "Solidity",
 		"sources": {
-			"contracts/18_data_locations.sol": {
+			"contracts/23.sol": {
 				"content": ""
 			}
 		},
@@ -42,12 +42,12 @@
 			{
 				"component": "general",
 				"errorCode": "1878",
-				"formattedMessage": "Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n--> contracts/18_data_locations.sol\n\n",
+				"formattedMessage": "Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n--> contracts/23.sol\n\n",
 				"message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
 				"severity": "warning",
 				"sourceLocation": {
 					"end": -1,
-					"file": "contracts/18_data_locations.sol",
+					"file": "contracts/23.sol",
 					"start": -1
 				},
 				"type": "Warning"
@@ -55,21 +55,21 @@
 			{
 				"component": "general",
 				"errorCode": "3420",
-				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.22;\"\n--> contracts/18_data_locations.sol\n\n",
+				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.22;\"\n--> contracts/23.sol\n\n",
 				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.22;\"",
 				"severity": "warning",
 				"sourceLocation": {
 					"end": -1,
-					"file": "contracts/18_data_locations.sol",
+					"file": "contracts/23.sol",
 					"start": -1
 				},
 				"type": "Warning"
 			}
 		],
 		"sources": {
-			"contracts/18_data_locations.sol": {
+			"contracts/23.sol": {
 				"ast": {
-					"absolutePath": "contracts/18_data_locations.sol",
+					"absolutePath": "contracts/23.sol",
 					"exportedSymbols": {},
 					"id": 1,
 					"nodeType": "SourceUnit",
