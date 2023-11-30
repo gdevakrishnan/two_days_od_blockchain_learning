@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "participate",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "selectWinners",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/4_practice.sol": "lottery"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/4_practice.sol": {
+			"keccak256": "0x0ed7a434e6d4cc6782f71d87047467efe8c7ea5cce39928d466c6eec86db31b5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b777f4fb2ca07ea95d1ad4cbcd444e8d761c90549fd6229bfaf1aa2f388c0b7b",
+				"dweb:/ipfs/QmNhEyzyxF5tKQUtSjEGyzzSBNC3GiGSj3h9gvsyxiH6Q3"
+			]
+		}
+	},
+	"version": 1
+}
