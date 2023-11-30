@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "giveFund",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_orphanageAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_minEth",
+						"type": "uint256"
+					}
+				],
+				"name": "transferToOrphanage",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/projects/6_crowd_funding.sol": "crowdFunding"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/projects/6_crowd_funding.sol": {
+			"keccak256": "0x6fe6ce3547bfe5c99a4bea1c048a36cacda3c7420e7ca7cc4bab70ce88d4a927",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4fb3c33e4c9ea643eacbabc31532dd09001998f6f0e3b8fe4ede6497f50c7b4b",
+				"dweb:/ipfs/QmdBPrAe3RKUsLTE8HnGVHKMNNG4d9FecKWwusJi7i2bLf"
+			]
+		}
+	},
+	"version": 1
+}
